@@ -1,0 +1,63 @@
+.adImgTitle{
+	width: 100px;
+	text-align: center;
+	margin: 20px auto 5px auto;
+	font-size: 30px;
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+	color: #fff;
+	z-index: 100;
+}
+.imgBox{
+	width: 300px;
+	height: 200px;
+	padding: 2px;
+	margin: 0 auto; 
+/*	border: 2px solid blue;*/
+	position: relative;
+	overflow: hidden;
+	z-index:1;
+}
+.img {
+	width: 33%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 33.3%;
+	right: 0;
+	z-index: 10;
+}
+.moveBtn{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	font-size: 26px;
+	top: 40%;
+	background-color: #fff;
+	z-index: 100;
+	opacity: 0.5;
+}
+.moveBtn.right{
+	left: auto;
+	right: 10px;
+}
+.moveBtn:hover{
+	cursor: pointer;
+}
+.imgMoveBox{
+	width: 300%;
+	height: 100%;
+	position: relative;
+	left: -100%;
+	/*border: 1px solid red;*/
+}
+
+.subImg{
+	left: 33.3%;
+	z-index: 1;
+}
